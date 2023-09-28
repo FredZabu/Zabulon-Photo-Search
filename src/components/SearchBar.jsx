@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
+import './ImageList.css'
 
 function SearchBar({handleSubmit}) {
 
@@ -16,7 +17,7 @@ function SearchBar({handleSubmit}) {
     setTerm(event.target.value);
   }
   return (
-    <form onSubmit={onSubmit} >
+    <form onSubmit={onSubmit} className='form_container' >
       
       <input type="text" value={term} onChange={handleChange}  />
     </form>

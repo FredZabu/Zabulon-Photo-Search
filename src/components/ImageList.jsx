@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import ImageShow from './ImageShow';
+import './ImageList.css';
 
 function ImageList({ images }) {
   console.log(images);
@@ -10,7 +11,7 @@ function ImageList({ images }) {
 } />
   })
   return (
-    <div>
+    <div className='image_list'>
       {handledImages}
     </div>
   )

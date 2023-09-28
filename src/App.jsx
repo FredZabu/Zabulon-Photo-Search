@@ -13,6 +13,9 @@ function App() {
   }
   return (
     <div>
+      <div>
+        <h2>Zabulon Photo Search</h2>
+      </div>
       <SearchBar handleSubmit={onSubmit} />
       <ImageList images = {images} />
       </div>
