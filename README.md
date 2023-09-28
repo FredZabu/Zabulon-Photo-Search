@@ -1,8 +1,36 @@
-# React + Vite
+# Zabulon Photo Search website
+This is a photo search website made in reactjs and with this i was able to master the art of making api calls.Thanks alot to Stephen Grider's course that has guided me through my web development journey. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of contents
 
-Currently, two official plugins are available:
+- [Overview](#overview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+I built a photo search website in reactjs. React.js is a JavaScript library for creating user interfaces, while Tailwind CSS is a utility-first CSS framework. The landing page aims to attract visitors and encourage specific actions. I designed the layout using Tailwind CSS utility classes and created reusable React components for different sections. The page is responsive, thanks to Tailwind CSS's responsive utility classes.Finally, i deployed the landing page to make it accessible online.
+
+### Links
+
+- Solution URL: [https://github.com/FredZabu/Zabulon-Photo-Search.git]
+- Live Site URL: []
+
+### Built with
+
+- Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+### Continued development
+
+- Redux state management
+- blockchain
+
+## Author
+
+- Frontend Mentor - [Fred Zabulon](https://www.frontendmentor.io/profile/fredzabu)
+- Twitter - [@FredZabulon](https://twitter.com/FredZabulon)
