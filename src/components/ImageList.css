@@ -8,13 +8,15 @@
 
 .image_div{
     border-radius: 10px;
+    width: 400px;
     height: 250px;
     position: relative;
     overflow: hidden;
 }
 .image_div img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: fill;
 }
 
 .image_text{
@@ -42,12 +44,41 @@
 }
 
 .form_container{
-    border: 2px solid red;
-    display: inline-block;
-    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: grid;
     place-items: center;
+    padding: 5px 10px;
+    margin-left: 30px;
+    
+}
+.form_container form{
+    display: flex;
+    flex-direction: column;
 }
 .form_container input{
     width: 300px;
     padding: 5px 2px;
+    outline: none;
+}
+.header_container{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border: 2px solid aqua;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+}
+.logo_container h2{
+    color: aqua;
 }

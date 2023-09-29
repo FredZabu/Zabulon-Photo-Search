@@ -17,10 +17,13 @@ function SearchBar({handleSubmit}) {
     setTerm(event.target.value);
   }
   return (
-    <form onSubmit={onSubmit} className='form_container' >
-      
-      <input type="text" value={term} onChange={handleChange}  />
-    </form>
+    <div className='form_container'>
+    <form onSubmit={onSubmit} >
+
+      <label >Enter Search Term</label>
+      <input type="text" placeholder='search' value={term} onChange={handleChange}  />
+      </form>
+      </div>
   )
 }
 

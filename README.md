@@ -1,5 +1,6 @@
 # Zabulon Photo Search website
-This is a photo search website made in reactjs and with this i was able to master the art of making api calls.Thanks alot to Stephen Grider's course that has guided me through my web development journey. 
+
+This is a photo search website made in reactjs and with this i was able to master the art of making api calls.Thanks alot to Stephen Grider's course that has guided me through my web development journey.
 
 ## Table of contents
 
@@ -24,6 +25,7 @@ I built a photo search website in reactjs. React.js is a JavaScript library for 
 - Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- Unsplash API
 
 ### Continued development
 
